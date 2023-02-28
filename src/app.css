@@ -101,8 +101,8 @@ section {
   border-color: var(--fg-color);
 }
 
-#content:nth-child(even) .btn-secondary,
-#content:nth-child(even) .btn-outline-dark {
+#content:nth-child(odd) .btn-secondary,
+#content:nth-child(odd) .btn-outline-dark {
   color: var(--fg-color);
   border-color: var(--fg-color);
 }
