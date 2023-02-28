@@ -19,6 +19,12 @@
     console.log(components)
     window.components = components;
     window.data = data;
+    
+     
+    let root = document.documentElement;
+    root.style.setProperty('--bg-color', data.design.color1);
+    root.style.setProperty('--fg-color', data.design.color2);
+    root.style.setProperty('--font', data.design.font);
   })
   
   // this function receives updates from the cms
@@ -26,6 +32,7 @@
     // console.log(data);
     data = mydata;
   }
+ 
 </script>
 
 <div id="content">
