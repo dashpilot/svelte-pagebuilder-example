@@ -18,6 +18,7 @@
     
     console.log(components)
     window.components = components;
+    window.data = data;
   })
   
   // this function receives updates from the cms
