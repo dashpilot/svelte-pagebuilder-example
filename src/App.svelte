@@ -28,6 +28,7 @@
   }
 </script>
 
+<div id="content">
 {#if data}
   {#each data.items as item, i}
 
@@ -47,7 +48,7 @@
 
   {/each}
 {/if}  
-
+</div>
   
 <!-- We need to include them at least once -->
 <Header bind:item bind:components />	
