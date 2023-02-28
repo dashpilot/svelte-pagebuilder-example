@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&family=Lobster&family=Playfair+Display&family=Raleway&family=Cutive+Mono&display=swap")
-
-:root,
-body {
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&family=Lobster&family=Playfair+Display&family=Raleway&family=Cutive+Mono&display=swap"):
+    root,
+  body {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -17,46 +16,48 @@ section {
   padding: 50px;
 }
 
-
-
 :root {
-  --bg-color: #F7FAFC;
+  --bg-color: #f7fafc;
   --fg-color: #000000;
   --font: "Rubik";
   --spacing: "-0.04em";
 }
 
-.container{
+.container {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-section h1, section h2, section h3, section h4{
+section h1,
+section h2,
+section h3,
+section h4 {
   font-family: var(--font);
   letter-spacing: var(--spacing);
   font-weight: 600;
 }
 
-section h1, section h2{
+section h1,
+section h2 {
   font-size: 45px;
   line-height: 45px;
 }
 
-section h3{
+section h3 {
   margin-top: 20px;
   font-size: 35px;
   line-height: 35px;
 }
 
-section h1{
+section h1 {
   margin-bottom: 10px;
 }
 
-section h2{
+section h2 {
   margin-bottom: 25px;
 }
 
-section p{
+section p {
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -64,7 +65,7 @@ section p{
   color: #4f5c65;
 }
 
-section{
+section {
   padding: 25px;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -74,7 +75,7 @@ section{
 #header:nth-child(odd) h2,
 #header:nth-child(odd) h3,
 #header:nth-child(odd) p,
-#header:nth-child(odd) .fas{
+#header:nth-child(odd) .fas {
   color: var(--fg-color);
 }
 
@@ -82,31 +83,29 @@ section{
 #content section:nth-child(even) h2,
 #content section:nth-child(even) h3,
 #content section:nth-child(even) p,
-#content section:nth-child(even) .fas{
+#content section:nth-child(even) .fas {
   color: var(--fg-color);
 }
 
-#content section:nth-child(even){
+#content section:nth-child(even) {
   background-color: var(--bg-color);
 }
 
-#header:nth-child(odd){
+#header:nth-child(odd) {
   background-color: var(--bg-color);
 }
 
-
-
-#header:nth-child(odd) .btn-secondary{
+#header:nth-child(odd) .btn-secondary {
   color: var(--fg-color);
-  border-color: color: var(--fg-color);
+  border-color: var(--fg-color);
 }
 
-#content:nth-child(odd) .btn-secondary{
+#content:nth-child(odd) .btn-secondary {
   color: var(--fg-color);
-  border-color: color: var(--fg-color);
+  border-color: var(--fg-color);
 }
 
-.fa-big{
+.fa-big {
   font-size: 45px;
   margin-bottom: 15px;
 }
@@ -118,7 +117,6 @@ section{
   padding-top: 56.25%;
   /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
-
 
 /* Then style the iframe to fit in the container div with full height and width */
 
