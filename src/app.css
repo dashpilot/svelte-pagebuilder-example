@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&family=Lobster&family=Playfair+Display&family=Raleway&family=Cutive+Mono&display=swap"):
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&family=Lobster&family=Playfair+Display&family=Raleway&family=Cutive+Mono&display=swap");
+/*
     root,
   body {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -11,11 +12,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
-section {
-  padding: 50px;
-}
-
+*/
 :root {
   --bg-color: #f7fafc;
   --fg-color: #000000;
@@ -26,6 +23,10 @@ section {
 .container {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+section {
+  padding: 50px;
 }
 
 section h1,
