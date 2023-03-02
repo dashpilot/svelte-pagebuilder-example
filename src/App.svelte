@@ -42,7 +42,7 @@
 
 <div id="content">
 {#if data}
-  {#each data.items as item, i}
+  {#each data.posts as item, i}
 
   {#if item.component == 'Header'}
   <Header bind:item bind:components />		
