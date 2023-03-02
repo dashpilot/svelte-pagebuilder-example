@@ -6,9 +6,9 @@ components.push({
 			"component": "Header",
 			"name": "Header",
 			"fields": {
+			  "icon": "icn",
 			  "title":"txt",
 			  "subtitle": "txt",
-			  "icon": "icn",
 			  "button_text": "txt",
 			  "button_link": "txt"
 		  }
