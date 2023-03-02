@@ -36,7 +36,7 @@
 </script>
 
 {#if data}
-<link href="https://fonts.googleapis.com/css2?family={data.design.font}:wght@600&family=Rubik:wght@300,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family={data.design.font}:wght@600&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
 {/if}
 
 
