@@ -35,6 +35,13 @@
  
 </script>
 
+{#if data}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family={data.design.font}:wght@400,600,700&display=swap" rel="stylesheet">
+{/if}
+
+
 <div id="content">
 {#if data}
   {#each data.items as item, i}
