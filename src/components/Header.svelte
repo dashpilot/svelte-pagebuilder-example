@@ -20,7 +20,7 @@ components.push({
 <section>
 	<div class="container edit text-center" id="{item.id}">
   	<i class="{item.icon} fa-big"></i>
-  	<h1>{item.title}</h1>
+  	<h1 class="apply-font">{item.title}</h1>
   	<p>{item.subtitle}</p>
   	<a href="{item.button_link}" class="btn btn-outline-dark">{item.button_text}</a>
 	</div>
