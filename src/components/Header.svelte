@@ -10,7 +10,7 @@ components.push({
 			  "subtitle": "txt",
 			  "icon": "icn",
 			  "button_text": "txt",
-			  "body": "rte"
+			  "button_link": "txt"
 		  }
 	  })
 }
