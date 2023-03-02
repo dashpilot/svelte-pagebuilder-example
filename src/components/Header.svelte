@@ -22,7 +22,7 @@ components.push({
   	<i class="{item.icon} fa-big"></i>
   	<h1>{item.title}</h1>
   	<p>{item.subtitle}</p>
-  	<a href="{item.button_link}" class="btn btn-outline-dark mb-5">{item.button_text}</a>
+  	<a href="{item.button_link}" class="btn btn-outline-dark mt-5">{item.button_text}</a>
 	</div>
 </section>
 {/if}
